@@ -8,9 +8,13 @@ The model introduces scalable, dampened oscillations to allow flexible pricing b
 ## Formula (simplified):
 
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(fp + φ) · e^(-kp) · p^β + δ ]
+
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · sin(fp + φ) · e^(-kp) · p^β + δ ]
+
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · sin(π * fp + φ) · e^(-kp) · p^β + δ ]
+
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(π * fp + φ) · e^(-kp) · p^β + δ ]
+
 Where:
 - `p` = percentile
 - `S` = scaling
@@ -24,7 +28,21 @@ Where:
 Proprietary – All Rights Reserved  
 © Yosef Yaakov Bunick 7/25/2025  
 
-This model, including its formulas, structure, and supporting files, is the intellectual property of Yosef Yaakov Bunick.  
-No part of this work may be copied, reproduced, distributed, or used in any form without explicit written permission from the author.
-Unauthorized use, reproduction, or modification of this content is prohibited and may result in legal action.
-This model may not be copied, reused, or distributed without permission.
+##Intellectual Property Notice
+
+This model — including its formulas, structure, and supporting files — is the intellectual property of Yosef Yaakov Bunick.
+No part of this work may be copied, reproduced, distributed, or used in any form without the explicit written permission of the author.
+Unauthorized use, reproduction, or modification of this content is strictly prohibited and may result in legal action.
+This model may not be copied, reused for commercial purposes, or distributed without proper attribution and prior permission.
+
+## License for shared use
+
+The *Formula Only* is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)/).
+
+Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made.
+
+NonCommercial — You may not use the material for commercial purposes.
+
+ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+This Creative Commons license applies **only to the formula as shared**, and **not to the full model, its structure, or supporting files**, which remain fully proprietary and protected under copyright.
