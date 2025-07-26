@@ -20,7 +20,7 @@ Where:
 ## License
 
 Proprietary – All Rights Reserved  
-© [Yosef Yaakov Bunick] 2025  
+© Yosef Yaakov Bunick 7/25/2025  
 
 This model, including its formulas, structure, and supporting files, is the intellectual property of [Yosef Yaakov Bunick].  
 No part of this work may be copied, reproduced, distributed, or used in any form without explicit written permission from the author.
