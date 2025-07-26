@@ -9,6 +9,8 @@ The model introduces scalable, dampened oscillations to allow flexible pricing b
 
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(fp + φ) · e^(-kp) · p^β + δ ]
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · sin(fp + φ) · e^(-kp) · p^β + δ ]
+F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · sin(π * fp + φ) · e^(-kp) · p^β + δ ]
+F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(π * fp + φ) · e^(-kp) · p^β + δ ]
 Where:
 - `p` = percentile
 - `S` = scaling
