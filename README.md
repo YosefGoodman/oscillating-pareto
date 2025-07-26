@@ -36,8 +36,8 @@ Unauthorized use, reproduction, or modification of this content is strictly proh
 This model may not be copied, reused for commercial purposes, or distributed without proper attribution and prior permission.
 
 ## License for shared use
-
-The *Formula Only* is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)/).
+CC BY-NC-SA 4.0 ©
+The *Formula Only* is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made.
 
