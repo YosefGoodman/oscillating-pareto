@@ -6,16 +6,19 @@ This repository contains a custom hybrid pricing/severity model based on the inv
 The model introduces scalable, dampened oscillations to allow flexible pricing behavior across percentiles, suitable for insurance, actuarial modeling, and advanced pricing strategies.
 
 ## Formula (simplified):
-# form-1
+### form-1
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(fp + φ) · e^(-kp) · p^β + δ ]
-# form-2
+### form-2
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · sin(fp + φ) · e^(-kp) · p^β + δ ]
-# form-3
+### form-3
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · sin(π * fp + φ) · e^(-kp) · p^β + δ ]
-# form-4
+### form-4
 F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(π * fp + φ) · e^(-kp) · p^β + δ ]
-# form-5
+### form-5
+F(p) = λ(1−p)−α +A(1−p)β sin(fp+ϕ)+δ
+ex.
 F(p)= $E$7 + ($E$2 / (1 - F9)^($E$1)) + $E$4 * (1 - F9)^$E$6 * SIN($E$5 * F9 + $E$3)
+
 
 Where:
 - `p` = percentile
