@@ -18,7 +18,8 @@ F(p) = S · [ λ((1 - p)^(-1/α) - 1) + trunc + V + A · cos(π * fp + φ) · e^
 F(p) = λ(1−p)−α +A(1−p)β sin(fp+ϕ)+δ
 ex.
 F(p)= $E$7 + ($E$2 / (1 - F9)^($E$1)) + $E$4 * (1 - F9)^$E$6 * SIN($E$5 * F9 + $E$3)
-
+### simplest-form-1
+F(p)=λ*(1-p)^(-α)+A*p^β*sin(f*p)
 
 Where:
 - `p` = percentile
